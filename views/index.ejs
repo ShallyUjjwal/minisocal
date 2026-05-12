@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <div class="  p-10 w-full min-h-screen bg-zinc-900 text-white">
+        <h3 class="text-3x ">Create Account</h3> 
+        <hr class="my-5 border-zinc-600">
+    
+
+        <form class="flex flex-col gap-3" action="/register"  method="post">
+                <input class="px-3 py-2 bg-zinc-800 border border-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-500" type="text" name="name" placeholder="name" id="">
+                <input class="px-3 py-2 bg-zinc-800 border border-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-500" type="text" name="username" placeholder="username" id="">
+                <input class="px-3 py-2 bg-zinc-800 border border-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-500" type="email" name="email" placeholder="email" id="">
+                <input class="px-3 py-2 bg-zinc-800 border border-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-500" type="number" name="age" placeholder="age" id="">
+                <input class="px-3 py-2 bg-zinc-800 border border-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-500" type="password" name="password" placeholder="password" id="">
+                <input class="px-3 py-2 bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500" type="submit"  value="create account" name="" id="">
+
+            </form>
+    </div>
+</body>
+</html>
